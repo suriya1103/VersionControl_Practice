@@ -19,4 +19,5 @@ def about():
 def checkout():
     return render_template("checkout.html")
 
+print("It is working : ", os.getcwd())
 app.run(debug=True)
