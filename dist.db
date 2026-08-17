@@ -1,4 +1,2 @@
+Create Database sampledb
 select * from sample
-
-# after stash created commit it
-select * from employee
