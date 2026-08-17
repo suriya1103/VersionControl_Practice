@@ -15,4 +15,8 @@ def contact():
 def about():
     return render_template("about.html")
 
+@app.route("/checkout")
+def checkout():
+    return render_template("checkout.html")
+
 app.run(debug=True)
